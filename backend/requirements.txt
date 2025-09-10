@@ -1,0 +1,49 @@
+# Core FastAPI and async support
+fastapi~=0.116.1
+uvicorn[standard]==0.24.0
+pydantic~=2.12.0a1
+pydantic[email]
+pydantic-settings~=2.10.1
+curl-cffi==0.5.10
+
+# Database
+sqlmodel~=0.0.24
+sqlalchemy~=2.0.43
+pymysql==1.1.1
+alembic==1.13.1
+
+# Authentication & Security
+python-jose[cryptography]~=3.5.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# 2FA
+pyotp==2.9.0
+qrcode[pil]==7.4.2
+
+# MinIO Storage
+minio~=7.2.16
+
+# Inference Providers
+openai~=1.102.0
+httpx~=0.28.1
+
+# System monitoring
+psutil~=7.0.0
+
+# Development and testing
+pytest~=8.4.1
+pytest-asyncio==0.21.1
+faker==20.1.0
+
+# Optional: Email support
+# aiosmtplib==2.0.2
+
+# Code quality
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+
+PyJWT~=2.10.1
+cryptography~=45.0.6
